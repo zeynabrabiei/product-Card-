@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import styles from "./Footer.module.css";
+
 
 function Footer() {
   return (
-    <>
-        <h1>Developed by Zeynab</h1>
-    </>
+    <div className={styles.container}>
+        <p>Developed by Zeynab</p>
+    </div>
   )
 }
 

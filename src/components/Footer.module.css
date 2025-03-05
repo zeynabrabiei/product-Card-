@@ -1,0 +1,11 @@
+.container{
+    border-radius: 30px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    background-color:  rgb(10, 17, 155);
+}
+.container p{
+    padding-top: 20px;
+
+}
