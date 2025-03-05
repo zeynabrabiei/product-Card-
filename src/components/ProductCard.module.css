@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    display: inline-block; 
+    border: 2px solid rgb(10, 17, 155);  
+    margin: 20px 1px;
+    display: inline-block;    
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+}
+.container:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.img{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+}
+.title{
+    padding-left:10px ;
+}
+.newPriceBox{
+    display: flex;
+    justify-content: space-between;
+}
+.newPrice{
+    font-size: 26px;
+    padding-left: 10px;
+}
+.takhfif p{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.darsad{
+    padding-right: 30px;
+}
+.rate{
+    padding-left: 10px;
+}
+.rate img{
+    width: 15px;
+    
+}
+.quantity{
+    padding-right: 10px;
+}
+.detail{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sp{
+    color: red;
+    position: absolute;
+    top: 8%;
+    left: 55%;
+    transform: translate(+25%, -100%);
+    z-index: 10;
+}
+.takhfif{
+    padding-top: 20px;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+    padding-top: 40px;
+    padding-left: 20px ;
+}
+.ordinaryPrice{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
